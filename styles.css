@@ -1,0 +1,35 @@
+main {
+  width:300px;
+  margin: auto;
+}
+
+.btn {
+  width: 55px;
+  position: static;
+}
+
+.btn-danger, .btn-primary {
+  width: 110px;
+}
+
+input[type=text] {
+  width: 330px;
+  height: 35px;
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: Arial;
+  margin: auto;
+  color: blue;
+  font-size: 24px;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: grey;
+  position: relative;
+}
+
+body {
+  background-color: teal;
+}

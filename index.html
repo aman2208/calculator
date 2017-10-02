@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aman's Simple Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="calculate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.3/math.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>My First Calculator Page</h1>
+  </div>
+  <main>
+    <div class="row">
+      <div class="col-sm-12"><input class="textbox" type="text" id="textBox"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnSeven" value="7">7</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnEight" value="8">8</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnNine" value="9">9</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnDivide" value="/">/</button></div>
+      <div class="col-sm-4"><button class="btn btn-danger" type="submit" id="btnDelete"><-</button></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnFour" value="4">4</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnFive" value="5">5</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnSix" value="6">6</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnMultiply" value="*">*</button></div>
+      <div class="col-sm-4"><button class="btn btn-primary" type="submit" id="btnEquals" value="=">=</button></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnOne" value="1">1</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnTwo" value="2">2</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnThree" value="3">3</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnMinus" value="-">-</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnLeftBracket" value="(">(</button></div>
+      <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnRightBracket" value=")">)</button></div>
+    </div>
+
+  <div class="row">
+    <div class="col-sm-4"><button class="btn btn-default" type="submit" id="btnZero" value="0">0</button></div>
+    <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnDecimal" value=".">.</button></div>
+    <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnAdd" value="+">+</button></div>
+    <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnSquare" value="^2">^2</button></div>
+    <div class="col-sm-2"><button class="btn btn-default" type="submit" id="btnSquareRoot" value="^1/2">^(1/2)</button></div>
+  </div>
+  </main>
+
+</div>
+
+</body>
+</html>
